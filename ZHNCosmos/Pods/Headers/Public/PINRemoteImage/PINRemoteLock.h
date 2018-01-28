@@ -1,0 +1,1 @@
+../../../PINRemoteImage/Source/Classes/PINRemoteLock.h

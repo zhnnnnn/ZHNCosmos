@@ -1,0 +1,1 @@
+../../../PINRemoteImage/Source/Classes/Categories/PINImage+ScaledImage.h

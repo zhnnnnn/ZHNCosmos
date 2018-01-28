@@ -1,0 +1,16 @@
+NORMAL   NIGHT
+#ffffff  #343434  NormalViewBG
+#fafafa  #262626  CellBG
+#ececec  #202020  ToolViewBG
+#000000  #969696  CellTextColor
+#6d6d72  #6d6d72  SettingHeaderTextColor
+#d1d6d9  #000000  SettingSeparatorColor
+#ececec  #212121  CellReweetBG
+#FFFFFF  #000000  NavibarColor
+#f7f7f7  #1f1f1f  CellSectionHeaderBG
+#e1e8ed  #373737  DetailCellSeparatorColor
+#ececec  #202020  DetailCellMoreViewColor
+#ececec  #202020  CellSelectedColor
+#292929  #b4b4b4  OriginalCellMainTextColor
+#d3d3d3  #b4b4b4  OriginalCellMinorTextColor
+#d1d6d9  #00020b  HotCellSeparatorColor

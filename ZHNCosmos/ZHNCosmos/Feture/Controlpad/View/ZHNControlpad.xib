@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ZHNControlpad">
+            <rect key="frame" x="0.0" y="0.0" width="642" height="191"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aSB-cm-qa2">
+                    <rect key="frame" x="0.0" y="0.0" width="642" height="191"/>
+                    <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="4Gt-gi-CMm">
+                        <rect key="frame" x="0.0" y="0.0" width="642" height="191"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    </view>
+                    <blurEffect style="light"/>
+                </visualEffectView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jfg-ss-agd">
+                    <rect key="frame" x="0.0" y="0.0" width="459" height="191"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="wWa-KX-izX">
+                            <rect key="frame" x="15" y="15" width="444" height="161.5"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WtR-P0-5iS">
+                                    <rect key="frame" x="0.0" y="0.0" width="444" height="50.5"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P6i-cT-lno" customClass="ZHNControlpadCheckmark">
+                                            <rect key="frame" x="0.0" y="0.0" width="107.5" height="50.5"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="title" value="开/关音效"/>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="configDBName" value="isOnSound"/>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="imageName" value="control_pad_speaker_on"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </view>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KVm-Yj-TNU" customClass="ZHNControlpadAcount">
+                                            <rect key="frame" x="112.5" y="0.0" width="331.5" height="50.5"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </view>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstItem="KVm-Yj-TNU" firstAttribute="leading" secondItem="P6i-cT-lno" secondAttribute="trailing" constant="5" id="4bh-9J-jW7"/>
+                                        <constraint firstAttribute="trailing" secondItem="KVm-Yj-TNU" secondAttribute="trailing" id="Baz-74-lFA"/>
+                                        <constraint firstItem="KVm-Yj-TNU" firstAttribute="top" secondItem="WtR-P0-5iS" secondAttribute="top" id="Wgp-0e-Aj1"/>
+                                        <constraint firstItem="P6i-cT-lno" firstAttribute="top" secondItem="WtR-P0-5iS" secondAttribute="top" id="cQp-Gp-DsH"/>
+                                        <constraint firstAttribute="bottom" secondItem="P6i-cT-lno" secondAttribute="bottom" id="heQ-D8-3I9"/>
+                                        <constraint firstAttribute="bottom" secondItem="KVm-Yj-TNU" secondAttribute="bottom" id="zhS-5q-lqy"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="map-GC-KTM">
+                                    <rect key="frame" x="0.0" y="55.5" width="444" height="50.5"/>
+                                    <subviews>
+                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="5Sq-lQ-LRC">
+                                            <rect key="frame" x="0.0" y="0.0" width="444" height="50.5"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xGQ-x5-xqB" customClass="ZHNControlpadNormalBtn">
+                                                    <rect key="frame" x="0.0" y="0.0" width="107.5" height="50.5"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="string" keyPath="imageName" value="control_pad_paint_board"/>
+                                                        <userDefinedRuntimeAttribute type="string" keyPath="title" value="切换主题颜色"/>
+                                                    </userDefinedRuntimeAttributes>
+                                                </view>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iRH-ip-Hk6" customClass="ZHNControlpadCheckmark">
+                                                    <rect key="frame" x="112.5" y="0.0" width="107" height="50.5"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="string" keyPath="title" value="显示/隐藏图片"/>
+                                                        <userDefinedRuntimeAttribute type="string" keyPath="imageName" value="control_pad_photo"/>
+                                                        <userDefinedRuntimeAttribute type="string" keyPath="configDBName" value="isTimelineShowImage"/>
+                                                    </userDefinedRuntimeAttributes>
+                                                </view>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="psj-Hk-UFQ" customClass="ZHNControlpadCheckmark">
+                                                    <rect key="frame" x="224.5" y="0.0" width="107.5" height="50.5"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="string" keyPath="title" value="显示网页阅读模式"/>
+                                                        <userDefinedRuntimeAttribute type="string" keyPath="imageName" value="control_pad_reading_mode"/>
+                                                        <userDefinedRuntimeAttribute type="string" keyPath="configDBName" value="isWebReadingMode"/>
+                                                    </userDefinedRuntimeAttributes>
+                                                </view>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TWi-fb-hWw" customClass="ZHNControlpadNormalBtn">
+                                                    <rect key="frame" x="337" y="0.0" width="107" height="50.5"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="string" keyPath="title" value="切换字体"/>
+                                                        <userDefinedRuntimeAttribute type="string" keyPath="imageName" value="control_pad_bold"/>
+                                                    </userDefinedRuntimeAttributes>
+                                                </view>
+                                            </subviews>
+                                        </stackView>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="5Sq-lQ-LRC" secondAttribute="trailing" id="9aX-vN-dlu"/>
+                                        <constraint firstAttribute="bottom" secondItem="5Sq-lQ-LRC" secondAttribute="bottom" id="c1u-la-Dze"/>
+                                        <constraint firstItem="5Sq-lQ-LRC" firstAttribute="top" secondItem="map-GC-KTM" secondAttribute="top" id="dFn-Rf-ECq"/>
+                                        <constraint firstItem="5Sq-lQ-LRC" firstAttribute="leading" secondItem="map-GC-KTM" secondAttribute="leading" id="xbV-LE-Ove"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f7t-mn-Lxs">
+                                    <rect key="frame" x="0.0" y="111" width="444" height="50.5"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pFu-AE-k2Y" customClass="ZHNControlpadCheckmark">
+                                            <rect key="frame" x="0.0" y="0.0" width="107.5" height="50.5"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="title" value="切换暗色/亮色"/>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="imageName" value="control_pad_night_moon"/>
+                                                <userDefinedRuntimeAttribute type="boolean" keyPath="isNightVersion" value="YES"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </view>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YPa-DE-0F7" customClass="ZHNControlpadNormalBtn">
+                                            <rect key="frame" x="337" y="0.0" width="107" height="50.5"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="title" value="设置"/>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="imageName" value="control_pad_setting"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </view>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ju7-h8-sL7" customClass="ZHNControlpadSwitch">
+                                            <rect key="frame" x="112.5" y="0.0" width="219.5" height="50.5"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                    <integer key="value" value="5"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="leftTitleName" value="窄卡片样式"/>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="rightTitleName" value="宽卡片样式"/>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="configDBname" value="isTimelineWideCardType"/>
+                                                <userDefinedRuntimeAttribute type="boolean" keyPath="leftItemForValue" value="NO"/>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="rightImageName" value="control_pad_card_style_2"/>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="leftImageName" value="control_pad_card_style_1"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </view>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstItem="pFu-AE-k2Y" firstAttribute="top" secondItem="f7t-mn-Lxs" secondAttribute="top" id="AGV-bj-GrG"/>
+                                        <constraint firstAttribute="bottom" secondItem="pFu-AE-k2Y" secondAttribute="bottom" id="JGA-2Q-6Yp"/>
+                                        <constraint firstItem="Ju7-h8-sL7" firstAttribute="top" secondItem="f7t-mn-Lxs" secondAttribute="top" id="OxI-2e-qCf"/>
+                                        <constraint firstItem="YPa-DE-0F7" firstAttribute="top" secondItem="f7t-mn-Lxs" secondAttribute="top" id="Rgm-Ao-7It"/>
+                                        <constraint firstAttribute="bottom" secondItem="Ju7-h8-sL7" secondAttribute="bottom" id="S5g-Tl-HPZ"/>
+                                        <constraint firstAttribute="bottom" secondItem="YPa-DE-0F7" secondAttribute="bottom" id="ng8-PU-K3c"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="P6i-cT-lno" firstAttribute="trailing" secondItem="xGQ-x5-xqB" secondAttribute="trailing" id="BYb-qF-I2f"/>
+                                <constraint firstItem="YPa-DE-0F7" firstAttribute="leading" secondItem="TWi-fb-hWw" secondAttribute="leading" id="Gch-Wl-T8A"/>
+                                <constraint firstItem="P6i-cT-lno" firstAttribute="leading" secondItem="xGQ-x5-xqB" secondAttribute="leading" id="XSG-ty-EA5"/>
+                                <constraint firstItem="Ju7-h8-sL7" firstAttribute="leading" secondItem="iRH-ip-Hk6" secondAttribute="leading" id="hBt-2l-cVP"/>
+                                <constraint firstItem="pFu-AE-k2Y" firstAttribute="trailing" secondItem="xGQ-x5-xqB" secondAttribute="trailing" id="iVa-oq-jgM"/>
+                                <constraint firstItem="YPa-DE-0F7" firstAttribute="trailing" secondItem="TWi-fb-hWw" secondAttribute="trailing" id="pF1-hd-rnM"/>
+                                <constraint firstItem="Ju7-h8-sL7" firstAttribute="trailing" secondItem="psj-Hk-UFQ" secondAttribute="trailing" id="uo2-cp-MoV"/>
+                                <constraint firstItem="pFu-AE-k2Y" firstAttribute="leading" secondItem="xGQ-x5-xqB" secondAttribute="leading" id="vmM-TZ-wjh"/>
+                            </constraints>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="wWa-KX-izX" secondAttribute="trailing" id="F61-uQ-b05"/>
+                        <constraint firstItem="wWa-KX-izX" firstAttribute="leading" secondItem="Jfg-ss-agd" secondAttribute="leading" constant="15" id="Gt0-Xy-7cY"/>
+                        <constraint firstAttribute="bottom" secondItem="wWa-KX-izX" secondAttribute="bottom" constant="15" id="RJF-8e-RI7"/>
+                        <constraint firstItem="wWa-KX-izX" firstAttribute="top" secondItem="Jfg-ss-agd" secondAttribute="top" constant="15" id="ifS-pD-ojk"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xfw-eP-uFV">
+                    <rect key="frame" x="458.5" y="0.0" width="183.5" height="191"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Elp-zu-k9k">
+                            <rect key="frame" x="0.0" y="0.0" width="183.5" height="191"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bRT-Fv-bQ3">
+                                    <rect key="frame" x="0.0" y="0.0" width="92" height="191"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="slg-IY-eUb" customClass="ZHNControlpadSlider">
+                                            <rect key="frame" x="10" y="15" width="79" height="133.5"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="maxValue">
+                                                    <real key="value" value="30"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="minValue">
+                                                    <real key="value" value="12"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="currentValue">
+                                                    <real key="value" value="17"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="cofigDBName" value="font"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </view>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="字体" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ika-4t-MJ5">
+                                            <rect key="frame" x="31" y="154.5" width="37" height="21.5"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstItem="ika-4t-MJ5" firstAttribute="centerX" secondItem="slg-IY-eUb" secondAttribute="centerX" id="EJG-bl-46p"/>
+                                        <constraint firstItem="slg-IY-eUb" firstAttribute="leading" secondItem="bRT-Fv-bQ3" secondAttribute="leading" constant="10" id="Tfm-eB-FZB"/>
+                                        <constraint firstAttribute="trailing" secondItem="slg-IY-eUb" secondAttribute="trailing" constant="3" id="cJ6-po-S2v"/>
+                                        <constraint firstItem="ika-4t-MJ5" firstAttribute="top" secondItem="slg-IY-eUb" secondAttribute="bottom" constant="6" id="hcU-QG-UUk"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hpb-D6-W2n">
+                                    <rect key="frame" x="92" y="0.0" width="91.5" height="191"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rhA-v5-EWY" customClass="ZHNControlpadSlider">
+                                            <rect key="frame" x="3" y="15" width="79" height="133.5"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="maxValue">
+                                                    <real key="value" value="30"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="minValue">
+                                                    <real key="value" value="5"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="currentValue">
+                                                    <real key="value" value="7"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="cofigDBName" value="padding"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </view>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="间距" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aXS-us-KfI">
+                                            <rect key="frame" x="24" y="154.5" width="37" height="21.5"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstItem="aXS-us-KfI" firstAttribute="centerX" secondItem="rhA-v5-EWY" secondAttribute="centerX" id="0Mr-rx-lcX"/>
+                                        <constraint firstItem="rhA-v5-EWY" firstAttribute="leading" secondItem="Hpb-D6-W2n" secondAttribute="leading" constant="3" id="AaM-gN-4eG"/>
+                                        <constraint firstAttribute="trailing" secondItem="rhA-v5-EWY" secondAttribute="trailing" constant="10" id="aGS-m4-oFo"/>
+                                        <constraint firstItem="rhA-v5-EWY" firstAttribute="top" secondItem="Hpb-D6-W2n" secondAttribute="top" constant="15" id="faP-yv-QbT"/>
+                                        <constraint firstItem="aXS-us-KfI" firstAttribute="top" secondItem="rhA-v5-EWY" secondAttribute="bottom" constant="6" id="xJI-2F-rfK"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="aXS-us-KfI" firstAttribute="bottom" secondItem="ika-4t-MJ5" secondAttribute="bottom" id="aud-q4-hI3"/>
+                            </constraints>
+                        </stackView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="Elp-zu-k9k" secondAttribute="trailing" id="5n7-wy-SJI"/>
+                        <constraint firstItem="Elp-zu-k9k" firstAttribute="top" secondItem="xfw-eP-uFV" secondAttribute="top" id="BQQ-c6-Rbv"/>
+                        <constraint firstAttribute="bottom" secondItem="Elp-zu-k9k" secondAttribute="bottom" id="YbB-mK-BCi"/>
+                        <constraint firstItem="Elp-zu-k9k" firstAttribute="leading" secondItem="xfw-eP-uFV" secondAttribute="leading" id="bix-4M-IGT"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="xfw-eP-uFV" firstAttribute="width" secondItem="Jfg-ss-agd" secondAttribute="width" multiplier="0.4" id="3cc-ih-H11"/>
+                <constraint firstItem="aSB-cm-qa2" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="5Vh-js-NUJ"/>
+                <constraint firstItem="Jfg-ss-agd" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="66Y-jv-9ej"/>
+                <constraint firstItem="xfw-eP-uFV" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="B3y-GJ-bXP"/>
+                <constraint firstItem="ika-4t-MJ5" firstAttribute="bottom" secondItem="YPa-DE-0F7" secondAttribute="bottom" id="Fq6-Eo-bcx"/>
+                <constraint firstItem="Jfg-ss-agd" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="If9-WG-dKT"/>
+                <constraint firstItem="xfw-eP-uFV" firstAttribute="leading" secondItem="Jfg-ss-agd" secondAttribute="trailing" id="J1M-4C-mRJ"/>
+                <constraint firstAttribute="trailing" secondItem="xfw-eP-uFV" secondAttribute="trailing" id="Tpt-4N-Ill"/>
+                <constraint firstItem="Jfg-ss-agd" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Weu-8K-IZH"/>
+                <constraint firstItem="slg-IY-eUb" firstAttribute="top" secondItem="P6i-cT-lno" secondAttribute="top" id="a2b-5C-fmN"/>
+                <constraint firstAttribute="bottom" secondItem="xfw-eP-uFV" secondAttribute="bottom" id="kaf-Go-Oxb"/>
+                <constraint firstItem="aSB-cm-qa2" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="lta-5g-G7f"/>
+                <constraint firstAttribute="bottom" secondItem="aSB-cm-qa2" secondAttribute="bottom" id="vbI-32-2Cd"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="aSB-cm-qa2" secondAttribute="trailing" id="wqo-od-01o"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="backEffectView" destination="aSB-cm-qa2" id="hev-Ob-LvW"/>
+                <outlet property="cardTypeSwitch" destination="Ju7-h8-sL7" id="ZAw-ZH-kjV"/>
+                <outlet property="changeColorThemeBtn" destination="xGQ-x5-xqB" id="lwZ-Ib-jrH"/>
+                <outlet property="changeFontBtn" destination="TWi-fb-hWw" id="63Y-uQ-lnz"/>
+                <outlet property="changeNightVersionBtn" destination="pFu-AE-k2Y" id="u3X-Tp-cgp"/>
+                <outlet property="fontLabel" destination="ika-4t-MJ5" id="j9g-W9-at7"/>
+                <outlet property="fontSlider" destination="slg-IY-eUb" id="z0K-tU-IIb"/>
+                <outlet property="onSoundBtn" destination="P6i-cT-lno" id="C8e-Uh-blt"/>
+                <outlet property="paddingLabel" destination="aXS-us-KfI" id="Y9O-99-erw"/>
+                <outlet property="paddingSlider" destination="rhA-v5-EWY" id="IrR-eF-5of"/>
+                <outlet property="settingBtn" destination="YPa-DE-0F7" id="3Ta-eP-hsH"/>
+                <outlet property="showTimelinePicBtn" destination="iRH-ip-Hk6" id="Zhf-tR-PqF"/>
+                <outlet property="webReadingModeBtn" destination="psj-Hk-UFQ" id="4pI-Uy-Qcq"/>
+            </connections>
+            <point key="canvasLocation" x="-1726.5" y="-423.5"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,16 @@
+platform :ios, '10.0'
+target 'ZHNCosmos' do
+    pod 'LKDBHelper'
+    pod 'AFNetworking', '~> 3.0'
+    pod 'ReactiveCocoa', :git => 'https://github.com/zhao0/ReactiveCocoa.git', :tag => '2.5.2'
+    pod 'Masonry', '~> 1.1.0'
+    pod 'DKNightVersion'
+    pod 'MJRefresh'
+    pod 'YYText', :git => 'https://github.com/zhnnnnn/YYText.git'
+    pod 'YYModel'
+    pod 'SDWebImage', '~> 4.0'	
+    pod 'YYWebImage'
+    pod 'RealReachability'
+    pod 'DZNEmptyDataSet'
+    pod 'Texture', :git => 'https://github.com/zhnnnnn/Texture.git'
+end
