@@ -16,15 +16,7 @@ You can download [Weibo intl](https://itunes.apple.com/cn/app/weibo-intl/id12152
 ## Some GIF pictures
 | Friendly display link | 3d Shortcut menu | 🎉🎉 |
 | :----:  | :----: | :----: |
-| ![image1](http://p39kh9bll.bkt.clouddn.com/ranbow_link.gif) | ![image1](http://p39kh9bll.bkt.clouddn.com/3dMenu.gif) | ![image1](http://p39kh9bll.bkt.clouddn.com/firework.gif) |
-
-| ✨✨ Button |Theme color|Night mode |
-| :----:  | :----: | :----: |
-| ![image1](http://p39kh9bll.bkt.clouddn.com/shineBtn.gif) | ![image1](http://p39kh9bll.bkt.clouddn.com/color_theme.gif) | ![image1](hhttp://p39kh9bll.bkt.clouddn.com/night_version.gif) | 
-
-| Picture browser(support GIF,LivePhoto) |ScolllNavibar(two mode 1.Safari 2.full) | gooey menu |
-| :----:  | :----: | :----: |
-| ![image1](http://p39kh9bll.bkt.clouddn.com/pic.gif) | ![image1](http://p39kh9bll.bkt.clouddn.com/scroll_navibar.gif) | ![image1](http://p39kh9bll.bkt.clouddn.com/goory_menu.gif) |
+| ![image1](http://p39kh9bll.bkt.clouddn.com/ranbow_link.gif) | ![image1](http://p39kh9bll.bkt.clouddn.com/3dMenu.gif) | ！[image1](http://p39kh9bll.bkt.clouddn.com/firework.gif)|
 
 ## Imitation of the main functions
 - [x] Shield `webView`,Log in natively authorized.
