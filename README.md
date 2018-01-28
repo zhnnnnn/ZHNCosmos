@@ -16,15 +16,15 @@ You can download [Weibo intl](https://itunes.apple.com/cn/app/weibo-intl/id12152
 ## Some GIF pictures
 | Friendly display link | 3d Shortcut menu | 🎉🎉 |
 | :----:  | :----: | :----: |
-| ![image1](https://gitee.com/zhnnnnn/Cosmos_GIF/raw/master/GIFs/ranbow_link.gif) | ![image1](https://gitee.com/zhnnnnn/Cosmos_GIF/raw/master/GIFs/3dMenu.gif) | ![image1](https://gitee.com/zhnnnnn/Cosmos_GIF/raw/master/GIFs/firework.gif) |
+| ![image1](http://p39kh9bll.bkt.clouddn.com/ranbow_link.gif) | ![image1](http://p39kh9bll.bkt.clouddn.com/3dMenu.gif) | ![image1](http://p39kh9bll.bkt.clouddn.com/firework.gif) |
 
 | ✨✨ Button |Theme color|Night mode |
 | :----:  | :----: | :----: |
-| ![image1](https://gitee.com/zhnnnnn/Cosmos_GIF/raw/master/GIFs/shineBtn.gif) | ![image1](https://gitee.com/zhnnnnn/Cosmos_GIF/raw/master/GIFs/color_theme.gif) | ![image1](https://gitee.com/zhnnnnn/Cosmos_GIF/raw/master/GIFs/night_version.gif) | 
+| ![image1](http://p39kh9bll.bkt.clouddn.com/shineBtn.gif) | ![image1](http://p39kh9bll.bkt.clouddn.com/color_theme.gif) | ![image1](hhttp://p39kh9bll.bkt.clouddn.com/night_version.gif) | 
 
 | Picture browser(support GIF,LivePhoto) |ScolllNavibar(two mode 1.Safari 2.full) | gooey menu |
 | :----:  | :----: | :----: |
-| ![image1](https://gitee.com/zhnnnnn/Cosmos_GIF/raw/master/GIFs/pic.gif) | ![image1](https://gitee.com/zhnnnnn/Cosmos_GIF/raw/master/GIFs/scroll_navibar.gif) | ![image1](https://gitee.com/zhnnnnn/Cosmos_GIF/raw/master/GIFs/goory_menu.gif) |
+| ![image1](http://p39kh9bll.bkt.clouddn.com/pic.gif) | ![image1](http://p39kh9bll.bkt.clouddn.com/scroll_navibar.gif) | ![image1](http://p39kh9bll.bkt.clouddn.com/goory_menu.gif) |
 
 ## Imitation of the main functions
 - [x] Shield `webView`,Log in natively authorized.
