@@ -19,15 +19,15 @@
 ## 部分效果GIF图
 | 友好显示链接 | 3d快捷菜单 | 点赞礼花 |
 | :----:  | :----: | :----: |
-| ![image1](https://gitee.com/zhnnnnn/Cosmos_GIF/raw/master/GIFs/ranbow_link.gif) | ![image1](https://gitee.com/zhnnnnn/Cosmos_GIF/raw/master/GIFs/3dMenu.gif) | ![image1](https://gitee.com/zhnnnnn/Cosmos_GIF/raw/master/GIFs/firework.gif) |
+| ![image1](https://github.com/zhnnnnn/ZHNCosmos_GIFs/blob/master/ranbow_link.gif?raw=true) | ![image1](https://github.com/zhnnnnn/ZHNCosmos_GIFs/blob/master/3dMenu.gif?raw=true) | ![image1](https://github.com/zhnnnnn/ZHNCosmos_GIFs/blob/master/firework.gif?raw=true) |
 
 | ✨✨按钮 |主题色 |夜间模式 |
 | :----:  | :----: | :----: |
-| ![image1](https://gitee.com/zhnnnnn/Cosmos_GIF/raw/master/GIFs/shineBtn.gif) | ![image1](https://gitee.com/zhnnnnn/Cosmos_GIF/raw/master/GIFs/color_theme.gif) | ![image1](https://gitee.com/zhnnnnn/Cosmos_GIF/raw/master/GIFs/night_version.gif) | 
+| ![image1](https://github.com/zhnnnnn/ZHNCosmos_GIFs/blob/master/shineBtn.gif?raw=true) | ![image1](https://github.com/zhnnnnn/ZHNCosmos_GIFs/blob/master/color_theme.gif?raw=true) | ![image1](https://github.com/zhnnnnn/ZHNCosmos_GIFs/blob/master/night_version.gif?raw=true) | 
 
 | 图片浏览器(支持GIF,LivePhoto) |滑动导航栏(有两种模式1.Safari 2.全部滑动) | 动画弹框 |
 | :----:  | :----: | :----: |
-| ![image1](https://gitee.com/zhnnnnn/Cosmos_GIF/raw/master/GIFs/pic.gif) | ![image1](https://gitee.com/zhnnnnn/Cosmos_GIF/raw/master/GIFs/scroll_navibar.gif) | ![image1](https://gitee.com/zhnnnnn/Cosmos_GIF/raw/master/GIFs/goory_menu.gif) |
+| ![image1](https://github.com/zhnnnnn/ZHNCosmos_GIFs/blob/master/pic.gif?raw=true) | ![image1](https://github.com/zhnnnnn/ZHNCosmos_GIFs/blob/master/scroll_navibar.gif?raw=true) | ![image1](https://github.com/zhnnnnn/ZHNCosmos_GIFs/blob/master/goory_menu.gif?raw=true) |
 
 ## 仿写的主要功能
 - [x] 屏蔽`webView`原生授权登录。
