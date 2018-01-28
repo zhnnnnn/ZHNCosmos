@@ -1,7 +1,7 @@
 # Imitate Cosmos - a special third party weibo APP
 [中文]()
 ## intro
-Ignore my crappy English🙂🙂 🙂🙂🙂🙂,`Cosmos` is create by [@KITTEN-YANG ](https://weibo.com/710312327/profile), It is full of animate and interaction 。Imitate this application because of like and want to improve myself  , APIs  caught  from `Cosmos` use `Charles`. And many animates and interactions are learn from his book named `A GUIDE TO IOS ANIMATION` .  I tried use `ReactiveCocoa` `Texture` in the process. Completed a small part of the function.If you feel it help you，plaese give me a star .Lastly, I wish you guys can give it a lot of support to [@KITTEN-YANG ](https://weibo.com/710312327/profile) and its `Cosmos`. 
+Ignore my crappy English🙂🙂 🙂🙂🙂🙂,[Cosmos](https://itunes.apple.com/cn/app/cosmos-%E5%88%AB%E5%85%B7%E4%B8%80%E6%A0%BC%E7%9A%84%E5%BE%AE%E5%8D%9A%E5%AE%A2%E6%88%B7%E7%AB%AF/id1260925935?l=en&mt=8) is create by [@KITTEN-YANG ](https://weibo.com/710312327?refer_flag=1001030101_&is_all=1), It is full of animate and interaction 。Imitate this application because of like and want to improve myself  , APIs  caught  from `Cosmos` use `Charles`. And many animates and interactions are learn from his book named `A GUIDE TO IOS ANIMATION` .  I tried use `ReactiveCocoa` `Texture` in the process. Completed a small part of the function.If you feel it help you，plaese give me a star .Lastly, I wish you guys can give it a lot of support to [@KITTEN-YANG ](https://weibo.com/710312327?refer_flag=1001030101_&is_all=1) and its `Cosmos`. 
 
 ## If you do not have an account
 You can download [Weibo intl](https://itunes.apple.com/us/app/weibo-intl/id1215210046?mt=8)  to register a account first.
@@ -9,7 +9,7 @@ You can download [Weibo intl](https://itunes.apple.com/us/app/weibo-intl/id12152
 ## Demo video
 <p align="center" href="http://www.baidu.com">
 <a href="http://v.youku.com/v_show/id_XMzM2MDQzODExMg==.html?spm=a2h3j.8428770.3416059.1
-" target="_blank"><img src="https://gitee.com/zhnnnnn/Cosmos_GIF/raw/master/GIFs/play_video.png" alt="play_video" title="Kingfisher" width="315" height="600"/>
+" target="_blank"><img src="https://gitee.com/zhnnnnn/Cosmos_GIF/raw/master/GIFs/play_video.png" alt="play_video" title="play_video" width="315" height="600"/>
 </a>
 </p>
 
