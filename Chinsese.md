@@ -12,7 +12,7 @@
 ## 演示视频
 <p align="center" href="http://www.baidu.com">
 <a href="http://v.youku.com/v_show/id_XMzM2MDQzODExMg==.html?spm=a2h3j.8428770.3416059.1
-" target="_blank"><img src="https://gitee.com/zhnnnnn/Cosmos_GIF/raw/master/GIFs/play_video.png" alt="play_video" title="Kingfisher" width="315" height="600"/>
+" target="_blank"><img src="http://p39kh9bll.bkt.clouddn.com/play_video.png" alt="play_video" title="Kingfisher" width="315" height="600"/>
 </a>
 </p>
 
