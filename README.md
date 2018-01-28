@@ -16,7 +16,7 @@ You can download [Weibo intl](https://itunes.apple.com/cn/app/weibo-intl/id12152
 ## Some GIF pictures
 | Friendly display link | 3d Shortcut menu | 🎉🎉 |
 | :----:  | :----: | :----: |
-| ![image1](http://p39kh9bll.bkt.clouddn.com/ranbow_link.gif) | ![image1](http://p39kh9bll.bkt.clouddn.com/3dMenu.gif) | ！[image1](http://p39kh9bll.bkt.clouddn.com/firework.gif)|
+| ![image1](http://p39kh9bll.bkt.clouddn.com/ranbow_link.gif) | ![image1](http://p39kh9bll.bkt.clouddn.com/3dMenu.gif) |![image1](http://p39kh9bll.bkt.clouddn.com/ranbow_link.gif)|
 
 ## Imitation of the main functions
 - [x] Shield `webView`,Log in natively authorized.
