@@ -20,7 +20,7 @@ You can download [Weibo intl](https://itunes.apple.com/cn/app/weibo-intl/id12152
 
 | ✨✨ Button |Theme color|Night mode |
 | :----:  | :----: | :----: |
-| ![image1](https://gitee.com/zhnnnnn/Cosmos_GIF/raw/master/GIFs/shineBtn.gif) | ![image1](https://gitee.com/zhnnnnn/Cosmos_GIF/raw/master/GIFs/color_theme.gif) | ![image1](https://gitee.com/zhnnnnn/Cosmos_GIF/raw/master/GIFs/night_version.gif) | 
+| ![image1](https://github.com/zhnnnnn/ZHNCosmos_GIFs/blob/master/shineBtn.gif?raw=true) | ![image1](https://gitee.com/zhnnnnn/Cosmos_GIF/raw/master/GIFs/color_theme.gif) | ![image1](https://gitee.com/zhnnnnn/Cosmos_GIF/raw/master/GIFs/night_version.gif) | 
 
 | Picture browser(support GIF,LivePhoto) |ScolllNavibar(two mode 1.Safari 2.full) | gooey menu |
 | :----:  | :----: | :----: |
