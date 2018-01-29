@@ -70,6 +70,7 @@ typedef void(^ZHNEventAction)();
         CGFloat fontWH = [UIFont zhn_fontWithSize:KTextFont].pointSize;
         NSMutableArray *replaceRange = [NSMutableArray array];
         for (ZHNTimelineURL *urlStruct in status.urlStructs) {
+            if (!urlStruct.replaceString) {break;}
             NSString *urlStr = urlStruct.urlType == ZHNUrlTypeNormal ? urlStruct.urlShort : urlStruct.urlLong;
             NSRange urlRange = [attributedString.string rangeOfString:urlStr options:kNilOptions range:attributedString.yy_rangeOfAll];
             // string
