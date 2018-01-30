@@ -22,6 +22,7 @@
 @property (nonatomic,assign) CGFloat toNavigationBarAlpha;
 @property (nonatomic,assign) BOOL isShowTabbar;
 @property (nonatomic,strong) ZHNTimer *transitionTimer;
+@property (nonatomic,strong) UINavigationController *zhn_naviController;
 @end
 
 @implementation ZHNMagicTransitionBaseViewController
@@ -32,6 +33,9 @@
     edgeGesture.edges = UIRectEdgeLeft;
     self.panControllPopGesture = edgeGesture;
     [self.view addGestureRecognizer:edgeGesture];
+    
+    // While scroll to pop use `self.navigationController` will get value nil
+    self.zhn_naviController = self.navigationController;
 }
 
 - (void)viewDidAppear:(BOOL)animated {
@@ -88,7 +92,7 @@
                 [ZHNTabbarAnimateManager translateWithPercent:percent];
             }
             CGFloat alpha = (self.toNavigationBarAlpha - self.fromNavigationBarAlpha) * percent + self.fromNavigationBarAlpha;
-            self.navigationController.zhn_navibarAlpha = alpha;
+            self.zhn_naviController.zhn_navibarAlpha = alpha;
         }
             break;
         case UIGestureRecognizerStateCancelled:
@@ -101,14 +105,14 @@
 //                If use `[self.percentInteractionTransition finishInteractiveTransition]` animate time is to fast.
 //                [self.percentInteractionTransition finishInteractiveTransition];
                 
-                self.navigationController.zhn_navibarAlpha = self.toNavigationBarAlpha;
+                self.zhn_naviController.zhn_navibarAlpha = self.toNavigationBarAlpha;
                 if (self.isShowTabbar) {
                     [ZHNTabbarAnimateManager showAnimate];
                 }
             }else {
                 [self.percentInteractionTransition cancelInteractiveTransition];
                 [UIView animateWithDuration:KMagicTransitionAnimateDuration * percent animations:^{
-                    self.navigationController.zhn_navibarAlpha = self.fromNavigationBarAlpha;
+                    self.zhn_naviController.zhn_navibarAlpha = self.fromNavigationBarAlpha;
                 }];
                 [ZHNTabbarAnimateManager hideAnimate];
                 self.percentInteractionTransition = nil;
@@ -173,10 +177,10 @@
     // Navibar
     if (animated) {
         [UIView animateWithDuration:0.34 animations:^{
-            self.navigationController.zhn_navibarAlpha = viewController.zhn_navibarAlpha;
+            self.zhn_naviController.zhn_navibarAlpha = viewController.zhn_navibarAlpha;
         }];
     }else {
-        self.navigationController.zhn_navibarAlpha = viewController.zhn_navibarAlpha;
+        self.zhn_naviController.zhn_navibarAlpha = viewController.zhn_navibarAlpha;
     }
     // Tabbar
     if (viewController.hidesBottomBarWhenPushed) {

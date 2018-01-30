@@ -23,12 +23,6 @@
         [self addSubview:self.nameLabel];
         [self addSubview:self.dateSourceLabel];
         [self addSubview:self.vipIcon];
-        
-        @weakify(self);
-        self.extraThemeColorChangeHandle = ^{
-            @strongify(self);
-            self.nameLabel.textColor = [ZHNThemeManager zhn_getThemeColor];
-        };
     }
     return self;
 }
