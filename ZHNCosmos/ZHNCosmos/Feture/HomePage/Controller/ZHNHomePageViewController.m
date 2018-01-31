@@ -79,6 +79,12 @@
     }
 }
 
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    UITableView *tableView = self.contentScrollView.contentOffset.x == 0 ? self.allController.tableView :  self.moreController.tableView;
+    [self homepageTableViewDidScroll:tableView];
+}
+
 #pragma mark - delegate
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
     if ([scrollView isEqual:self.contentScrollView]) {

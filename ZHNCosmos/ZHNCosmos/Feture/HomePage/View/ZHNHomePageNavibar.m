@@ -50,8 +50,11 @@ static CGFloat const KContentSpacing = 10;
     @weakify(self);
     self.extraNightVersionChangeHandle = ^{
         @strongify(self);
-        self.placeholder.image = [placeholder zhn_viewSnapchot];
-        self.placeholder.frame = placeholder.frame;
+        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+            UIImage *image = [placeholder zhn_viewSnapchot];
+            self.placeholder.image = image;
+            self.placeholder.frame = placeholder.frame;
+        });
     };
     
     [[RACObserve(placeholder, blurType)
@@ -76,13 +79,9 @@ static CGFloat const KContentSpacing = 10;
                      break;
                  case ZHNPlaceholderBlurTypeChange:
                  {
-                     dispatch_async(dispatch_get_global_queue(0, 0), ^{
-                         UIImage *image = [placeholder zhn_viewSnapchot];
-                         dispatch_async(dispatch_get_main_queue(), ^{
-                             self.placeholder.image = image;
-                             self.placeholder.frame = placeholder.frame;
-                         });
-                     });
+                     UIImage *image = [placeholder zhn_viewSnapchot];
+                     self.placeholder.image = image;
+                     self.placeholder.frame = placeholder.frame;
                  }
                      break;
              }

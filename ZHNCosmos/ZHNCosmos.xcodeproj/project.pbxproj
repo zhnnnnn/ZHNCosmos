@@ -2259,7 +2259,7 @@
 				TargetAttributes = {
 					CD2FF8081F73F86400E8D307 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = ENQ9U52648;
+						DevelopmentTeam = 956Q5S49L6;
 						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
@@ -2799,7 +2799,7 @@
 				CODE_SIGN_ENTITLEMENTS = ZHNCosmos/ZHNCosmos.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = ENQ9U52648;
+				DEVELOPMENT_TEAM = 956Q5S49L6;
 				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = ZHNCosmos/Common/Header/ZHNCosmosPrefixHeader.pch;
 				INFOPLIST_FILE = ZHNCosmos/Info.plist;
@@ -2809,7 +2809,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/ZHNCosmos/Common/Vendor/OpenSSL/lib",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.zhn.demo.cosmos;
+				PRODUCT_BUNDLE_IDENTIFIER = zhnnnnncosmos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "ZHNCosmos/Common/Vendor/AMScrollingNavbar/ZHNCosmos-Bridging-Header.h";
@@ -2828,7 +2828,7 @@
 				CODE_SIGN_ENTITLEMENTS = ZHNCosmos/ZHNCosmos.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = ENQ9U52648;
+				DEVELOPMENT_TEAM = 956Q5S49L6;
 				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = ZHNCosmos/Common/Header/ZHNCosmosPrefixHeader.pch;
 				INFOPLIST_FILE = ZHNCosmos/Info.plist;
@@ -2838,7 +2838,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/ZHNCosmos/Common/Vendor/OpenSSL/lib",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.zhn.demo.cosmos;
+				PRODUCT_BUNDLE_IDENTIFIER = zhnnnnncosmos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "ZHNCosmos/Common/Vendor/AMScrollingNavbar/ZHNCosmos-Bridging-Header.h";
