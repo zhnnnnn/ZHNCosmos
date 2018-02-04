@@ -220,7 +220,12 @@
         subscribeNext:^(ZHNFetchTimelineDataMetaData *metaData) {
              @strongify(self)
              NSArray *layouts = metaData.layouts;
-             if (layouts.count == 0) {return;}
+             if (layouts.count == 0) {
+                 [self.tableView.mj_header endRefreshing];
+                 [self.tableView.mj_footer endRefreshing];
+                 return;
+             }
+            
              if (layouts.count >= [self everyRequestMaxCount]) {
                 self.tableView.mj_footer.hidden = NO;
              }
