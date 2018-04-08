@@ -1,10 +1,5 @@
 # Imitate Cosmos - a special third party weibo APP
 
-想要换份工作，杭州地区希望有合适工作机会的能联系我~
-
-- Email : coderZhangHuiNan@163.com
-- 微博 : [@p_prod](https://www.weibo.com/6306281216/profile)
-
 [中文](https://github.com/zhnnnnn/ZHNCosmos/blob/master/Chinese.md)
 
 ## intro
