@@ -1,5 +1,7 @@
 # Imitate Cosmos - a special third party weibo APP
 
+授权接口问题，暂时登录不了了。等Cosmos更新了我再把登录逻辑修复一下。
+
 [中文](https://github.com/zhnnnnn/ZHNCosmos/blob/master/Chinese.md)
 
 ## intro
