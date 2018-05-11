@@ -42,7 +42,7 @@
     manager.password = password;
     manager.successHandle = success;
     manager.failueHandle = failure;
-    NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:@"https://passport.weibo.cn/signin/login?client_id=2323547071&redirect_uri=http://oauth.weico.cc&display=sdk&action=login&offcialMobile=true&rf=1&version=003143000&sso_type=1&scope=direct_messages_write,direct_messages_read,friendships_groups_read,friendships_groups_write"]];
+    NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:@"https://passport.weibo.cn/signin/login?client_id=2781539112&redirect_uri=http://kittenyang.com&display=sdk&action=login&offcialMobile=true&rf=1&version=003143000&sso_type=1&scope=direct_messages_write,direct_messages_read,friendships_groups_read,friendships_groups_write"]];
     [manager.webView loadRequest:request];
 }
 
@@ -76,7 +76,7 @@
 
 - (void)webView:(WKWebView *)webView decidePolicyForNavigationAction:(WKNavigationAction *)navigationAction decisionHandler:(void (^)(WKNavigationActionPolicy))decisionHandler {
     NSString *URL = navigationAction.request.URL.absoluteString;
-    NSString *prefix = @"http://oauth.weico.cc";
+    NSString *prefix = @"http://kittenyang.com";
     if ([URL hasPrefix:prefix]) {
         NSString *accessToken = [URL zhn_analyticURLForparam:@"access_token"];
         NSString *uid = [URL zhn_analyticURLForparam:@"uid"];
