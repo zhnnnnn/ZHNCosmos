@@ -2809,7 +2809,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/ZHNCosmos/Common/Vendor/OpenSSL/lib",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = zhnnnnnnnncosmos;
+				PRODUCT_BUNDLE_IDENTIFIER = zhnnnnnnnn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "ZHNCosmos/Common/Vendor/AMScrollingNavbar/ZHNCosmos-Bridging-Header.h";
@@ -2838,7 +2838,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/ZHNCosmos/Common/Vendor/OpenSSL/lib",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = zhnnnnnnnncosmos;
+				PRODUCT_BUNDLE_IDENTIFIER = zhnnnnnnnn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "ZHNCosmos/Common/Vendor/AMScrollingNavbar/ZHNCosmos-Bridging-Header.h";

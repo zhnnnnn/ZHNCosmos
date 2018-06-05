@@ -54,7 +54,7 @@
          if (action) {
              action();
          }
-    }];
+     }];
 }
 
 - (void)webView:(WKWebView *)webView didFinishNavigation:(WKNavigation *)navigation {
@@ -76,7 +76,7 @@
 
 - (void)webView:(WKWebView *)webView decidePolicyForNavigationAction:(WKNavigationAction *)navigationAction decisionHandler:(void (^)(WKNavigationActionPolicy))decisionHandler {
     NSString *URL = navigationAction.request.URL.absoluteString;
-    NSString *prefix = @"http://kittenyang.com";
+    NSString *prefix = @"http://kittenyang.com/";
     if ([URL hasPrefix:prefix]) {
         NSString *accessToken = [URL zhn_analyticURLForparam:@"access_token"];
         NSString *uid = [URL zhn_analyticURLForparam:@"uid"];
