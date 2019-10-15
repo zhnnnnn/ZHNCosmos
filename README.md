@@ -1,5 +1,7 @@
 # Imitate Cosmos - a special third party weibo APP
 
+##Tip: 接口基本不可用了，现在首页用的是本地的缓存数据
+
 [中文](https://github.com/zhnnnnn/ZHNCosmos/blob/master/Chinese.md)
 
 ## intro
