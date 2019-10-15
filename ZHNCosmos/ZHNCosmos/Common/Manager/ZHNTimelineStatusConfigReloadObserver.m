@@ -111,7 +111,8 @@
 }
 
 - (RACSignal *)p_getCacheTimelineLayoutsWithCacheModelClass:(Class)cacheModelClass {
-    return [[ZHNNETWROK getTimelineStatusWithType:ZHNfetchDataTypeLoadCache cacheModelClass:cacheModelClass requestUrl:nil requestParams:nil requsetResponse:ZHNResponseTypeJSON resultArrayMapKeyArray:nil requestStatusMapKeyArray:nil]
+    // tip 接口挂了用本地数据看看效果
+    return [[ZHNNETWROK nativeTimelineStatus]
            flattenMap:^RACStream *(ZHNFetchTimelineDataMetaData *metaData) {
                NSArray *layouts = metaData.layouts;
                return [RACSignal return:layouts];

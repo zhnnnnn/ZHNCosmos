@@ -30,7 +30,6 @@
 - (void)zhn_responderRouterWithName:(NSString *)name userInfo:(NSDictionary *)userInfo {
     NSInvocation *invication = [[self zhn_currentEventStrategy] objectForKey:name];
     [self zhn_invoke:invication userInfo:userInfo];
-
 }
 
 - (NSDictionary *)zhn_currentEventStrategy {

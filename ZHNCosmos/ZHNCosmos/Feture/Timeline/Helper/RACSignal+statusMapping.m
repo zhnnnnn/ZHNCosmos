@@ -93,7 +93,8 @@
                       [longUrlModelArray addObjectsFromArray:modelArray];
                       dispatch_group_leave(urlGroup);
                   } failure:^(NSError *error, NSURLSessionDataTask *task) {
-                      [subscriber sendError:nil];
+// url解析接口挂了 sad...
+//                      [subscriber sendError:nil];
                       dispatch_group_leave(urlGroup);
                   }];
               }

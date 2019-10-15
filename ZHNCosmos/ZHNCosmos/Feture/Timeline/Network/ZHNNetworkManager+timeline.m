@@ -22,7 +22,7 @@
 - (RACSignal *)nativeTimelineStatus {
     return
     [[[RACSignal createSignal:^RACDisposable *(id<RACSubscriber> subscriber) {
-        NSString *path = [[NSBundle mainBundle] pathForResource:@"test1.json" ofType:@""];
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"test.json" ofType:@""];
         NSData *data = [NSData dataWithContentsOfFile:path];
         NSDictionary *dict = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:NULL];
         NSArray *statusArray = [NSArray yy_modelArrayWithClass:[ZHNTimelineStatus class] json:dict[@"statuses"]];

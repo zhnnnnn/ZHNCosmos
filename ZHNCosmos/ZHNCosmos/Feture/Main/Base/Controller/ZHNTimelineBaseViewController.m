@@ -213,7 +213,8 @@
         NSArray *statusMapKeyArray = [self requestStatuesMapkeyOrderArray];
         ZHNResponseType responseType = [self requestResponseType];
         NSDictionary *requestParams = [self requestParamsWithFetchDataType:fetchDataType];
-        [[[[[ZHNNETWROK getTimelineStatusWithType:fetchDataType cacheModelClass:cacheModelClass requestUrl:requestURL requestParams:requestParams requsetResponse:responseType resultArrayMapKeyArray:mapKeyArray requestStatusMapKeyArray:statusMapKeyArray]
+        // tip 接口挂了，用本地数据看看效果吧
+        [[[[[ZHNNETWROK nativeTimelineStatus]
         replayLazily]
         subscribeOn:scheduler]
         deliverOn:[RACScheduler mainThreadScheduler]]
