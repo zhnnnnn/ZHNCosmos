@@ -1,6 +1,6 @@
 # Imitate Cosmos - a special third party weibo APP
 
-### Tip: 接口基本不可用了，现在首页用的是本地数据。抓了下还能用的第三方微博，大家都开始用pc的接口了, sad...........
+#### Tip: 接口基本不可用了，现在首页用的是本地数据。抓了下还能用的第三方微博，大家都开始用pc的接口了, sad...........
 
 [中文](https://github.com/zhnnnnn/ZHNCosmos/blob/master/Chinese.md)
 
