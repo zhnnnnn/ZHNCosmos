@@ -19,9 +19,7 @@ You can download [Weibo intl](https://itunes.apple.com/cn/app/weibo-intl/id12152
 
 ## Some funny animate
 
-<p align="center" href="http://www.baidu.com">
-<img src="https://raw.githubusercontent.com/zhnnnnn/ZHNCosmos_GIFs/master/shine_animate.gif" width="158" height="300"/>
-</p>
+
 
 ## Some GIF pictures
 | Friendly display link | 3d Shortcut menu | 🎉🎉 |
