@@ -17,7 +17,7 @@ You can download [Weibo intl](https://itunes.apple.com/cn/app/weibo-intl/id12152
 </a>
 </p>
 
-## Some funny animate
+## funny animate
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/zhnnnnn/ZHNCosmos_GIFs/master/shine_animate.gif" width="578" height="84"/>
