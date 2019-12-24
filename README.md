@@ -13,8 +13,14 @@ You can download [Weibo intl](https://itunes.apple.com/cn/app/weibo-intl/id12152
 ## Demo video
 <p align="center" href="http://www.baidu.com">
 <a href="http://v.youku.com/v_show/id_XMzM2MDQzODExMg==.html?spm=a2h3j.8428770.3416059.1
-" target="_blank"><img src="https://raw.githubusercontent.com/zhnnnnn/ZHNCosmos_GIFs/master/Group%403x.png" alt="play_video" title="play_video" width="158" height="300"/>
+" target="_blank"><img src="https://raw.githubusercontent.com/zhnnnnn/ZHNCosmos_GIFs/master/Group%403x.png" alt="play_video" title="play_video" width="578" height="84"/>
 </a>
+</p>
+
+## Some funny animate
+
+<p align="center" href="http://www.baidu.com">
+<img src="https://raw.githubusercontent.com/zhnnnnn/ZHNCosmos_GIFs/master/shine_animate.gif" width="158" height="300"/>
 </p>
 
 ## Some GIF pictures
